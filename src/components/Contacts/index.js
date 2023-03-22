@@ -5,7 +5,20 @@ import { useState , useEffect} from 'react'
 
 function Contacts () {
 
-    const [contacts ,setContacts] = useState([]);
+    const [contacts ,setContacts] = useState([
+        {
+        fullname:"Test1",
+        phone_number:"123123"
+    },{
+        fullname:"Ayşe",
+        phone_number:"456457"
+    },{
+        fullname:"Nazlı",
+        phone_number:"987659"
+    }
+
+
+]);
 
     useEffect(() => {
 
