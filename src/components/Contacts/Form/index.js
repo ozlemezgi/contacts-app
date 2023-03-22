@@ -43,7 +43,7 @@ const onSubmit = (e) => {
             onChange={onChangeInput}></input>
         </div>
 
-        <div>
+        <div className='btn'>
             <button >
                 Add
             </button>

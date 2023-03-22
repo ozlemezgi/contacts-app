@@ -2,6 +2,7 @@ import React from 'react'
 import List from './List'
 import Form from './Form'
 import { useState , useEffect} from 'react'
+import "./styles.css"
 
 function Contacts () {
 
@@ -27,8 +28,8 @@ function Contacts () {
     },[contacts])
 
   return (
-    <div>
-
+    <div id="container">
+        <h1>Contacts</h1>
         <List contacts={contacts}/>
         <Form addContact={setContacts} contacts={contacts}/>
      </div>
